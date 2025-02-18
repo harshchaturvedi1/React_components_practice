@@ -1,25 +1,27 @@
 import React, { useState } from "react";
-import { AutoCompleteComponent } from "./Component/AutoComplete/AutoComplete";
-import { ContextApiPractice } from "./Component/ContextApiPractice/ContextApiPractice";
-import { ReduxPractice } from "./Component/ReduxPractice/ReduxPractice";
-import { TabComponent } from "./Component/TabComponent/TabComponent";
-import { BlockClick } from "./Component/Uber/Block_click/BlockClick";
+// import { AutoCompleteComponent } from "./Component/AutoComplete/AutoComplete";
+// import { ContextApiPractice } from "./Component/ContextApiPractice/ContextApiPractice";
+// import { ReduxPractice } from "./Component/ReduxPractice/ReduxPractice";
+// import { TabComponent } from "./Component/TabComponent/TabComponent";
+// import { BlockClick } from "./Component/Uber/Block_click/BlockClick";
 
 export default App = () => {
   return (
     <div>
+      {/*-----  Razorpay Practice -------*/}
       {/* <TabComponent /> */}
+      {/*-----  Razorpay Practice -------*/}
 
       {/* <AutoCompleteComponent /> */}
 
-      {/* uber practice */}
-      <BlockClick />
-      {/* uber practice */}
+      {/*------- uber practice ------*/}
+      {/* <BlockClick /> */}
+      {/*------- uber practice -----*/}
 
-      {/* Context Api */}
+      {/*------ Context Api ------*/}
       {/* <ContextApiPractice /> */}
 
-      {/* Redux */}
+      {/*------ Redux ------*/}
       {/* <ReduxPractice /> */}
     </div>
   );
